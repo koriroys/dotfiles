@@ -1,17 +1,17 @@
 [user]
-	name = Kori Roys
-	email = kori@koriroys.com
+  name = Kori Roys
+  email = kori@koriroys.com
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	hist = log --pretty=format:\"%Cred%h %ad%Creset | %s%d %Cred[%an]\" --graph --date=short
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%Cred%h %ad%Creset | %s%d %Cred[%an]\" --graph --date=short
   lg = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit --date=relative --max-count=50
-	type = cat-file -t
-	dump = cat-file -p
+  type = cat-file -t
+  dump = cat-file -p
 [core]
-	editor = mate -w
+  editor = mate -w
 [color]
   diff = auto
   status = auto
